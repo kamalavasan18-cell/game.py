@@ -14,9 +14,10 @@ while attempt<max_attempts:
      
         else:
             print("you won buddy and the correct answer is,{attempt}")
+            break
     except ValueError:
             print("print only the numbers")
-            break
+           
 
 if attempt == max_attempts:
     print(" OOPS! you have reached the limit") 
